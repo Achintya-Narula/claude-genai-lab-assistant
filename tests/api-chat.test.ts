@@ -25,7 +25,9 @@ function request(body: unknown) {
 }
 
 describe("POST /api/chat", () => {
-  beforeEach(() => mockGenerate.mockReset());
+  beforeEach(() => {
+    mockGenerate.mockReset();
+  });
 
   it("returns Claude's reply and source metadata", async () => {
     mockGenerate.mockResolvedValue("Use a clear task and constraints.");
