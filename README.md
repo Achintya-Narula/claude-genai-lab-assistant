@@ -1,5 +1,7 @@
 # Claude GenAI Lab Assistant
 
+[![CI](https://github.com/Achintya-Narula/claude-genai-lab-assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/Achintya-Narula/claude-genai-lab-assistant/actions/workflows/ci.yml)
+
 A compact Claude-powered teaching assistant for hands-on university GenAI labs. Students choose a lab topic and a learning mode, then ask a question, paste a prompt, or share a small debugging problem. The server grounds the request in curated local lab notes before sending it to Claude.
 
 > This is an independent student project by Achintya Narula. It is not an official Anthropic product.
